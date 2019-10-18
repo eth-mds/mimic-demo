@@ -1,5 +1,5 @@
 Package: mimic.demo
-Title: MIMIC-III Critical Care Database Demo in CSV Format
+Title: MIMIC-III Critical Care Database Demo
 Version: 0.0.0.9000
 Authors@R:
     person(given = "Drago",
@@ -10,7 +10,7 @@ Authors@R:
            family = "Bennett",
            role = c("aut", "cre"),
            email = "nicolas.bennett@stat.math.ethz.ch")
-Description: MIMIC-III (Medical Information Mart for Intensive Care III) is a large, freely-available database comprising deidentified health-related data associated with over 40,000 patients who stayed in critical care units of the Beth Israel Deaconess Medical Center between 2001 and 2012. The database includes information such as demographics, vital sign measurements made at the bedside (~1 data point per hour), laboratory test results, procedures, medications, caregiver notes, imaging reports, and mortality (both in and out of hospital). An open-access subset of MIMIC-III, comprising 100 randomly selected patients from the subset of patients who eventually die, is distributed under the Open Database License (ODbL) v1.0 and is provided as R package for convenience in CSV format.
+Description: MIMIC-III (Medical Information Mart for Intensive Care III) is a large, freely-available database comprising deidentified health-related data associated with over 40,000 patients who stayed in critical care units of the Beth Israel Deaconess Medical Center between 2001 and 2012. The database includes information such as demographics, vital sign measurements made at the bedside (~1 data point per hour), laboratory test results, procedures, medications, caregiver notes, imaging reports, and mortality (both in and out of hospital). An open-access subset of MIMIC-III, comprising 100 randomly selected patients from the subset of patients who eventually die, is distributed under the Open Database License (ODbL) v1.0 and is provided as R package for convenience.
 URL: https://physionet.org/content/mimiciii-demo/1.4
 BugReports: https://github.com/septic-tank/mimic-demo/issues
 License: ODbL v1.0
@@ -20,3 +20,5 @@ Enhances:
     sepsr
 Remotes:
     septic-tank/sepsr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
