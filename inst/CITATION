@@ -1,0 +1,58 @@
+
+c(
+  bibentry(
+    bibtype = "Article",
+    title = "MIMIC-III, a freely accessible critical care database",
+    author = c(
+      person(c("Alistair", "EW"), "Johnson"),
+      person(c("Tom", "J"), "Pollard"),
+      person("Lu", "Shen"),
+      person(c("H", "Lehman"), "Li-wei"),
+      person("Mengling", "Feng"),
+      person("Mohammad", "Ghassemi"),
+      person("Benjamin", "Moody"),
+      person("Peter", "Szolovits"),
+      person(c("Leo", "Anthony"), "Celi"),
+      person(c("Roger", "G"), "Mark")
+    ),
+    journal = "Scientific data",
+    volume = "3",
+    pages = "160035",
+    year = "2016",
+    publisher = "Nature Publishing Group",
+    url = "http://www.nature.com/articles/sdata201635",
+    doi = "10.1038/sdata.2016.35"
+  ),
+  bibentry(
+    bibtype = "Misc",
+    title = "The MIMIC-III Clinical Database",
+    author = c(
+      person(c("Tom", "J"), "Pollard"),
+      person(c("Alistair", "EW"), "Johnson")
+    ),
+    year = "2016",
+    doi = "10.13026/C2XW26"
+  ),
+  bibentry(
+    bibtype = "Article",
+    title = "PhysioBank, PhysioToolkit, and PhysioNet: components of a new research resource for complex physiologic signals",
+    author = c(
+      person(c("Ary", "L"), "Goldberger"),
+      person(c("Luis", "AN"), "Amaral"),
+      person("Leon", "Glass"),
+      person(c("Jeffrey", "M"), "Hausdorff"),
+      person(c("Plamen", "Ch"), "Ivanov"),
+      person(c("Roger", "G"), "Mark"),
+      person(c("Joseph", "E"), "Mietus"),
+      person(c("George", "B"), "Moody"),
+      person("Chung-Kang", "Peng"),
+      person(c("Stanley", "H"), "Eugene")
+    ),
+    journal = "Circulation",
+    volume = "101",
+    number = "23",
+    pages = "e215-e220",
+    year = "2000",
+    publisher = "Am Heart Assoc"
+  )
+)
