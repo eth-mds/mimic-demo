@@ -1,9 +1,13 @@
 
-library(sepsr)
+library(ricu)
 
-target_dir <- "inst/extdata"
+target_dir <- file.path("inst", "extdata")
+
+if (dir.exists(target_dir)) {
+  unlink(target_dir, recursive = TRUE)
+}
 
 dir.create(target_dir, recursive = TRUE)
 
-download_mimic(demo = TRUE, dest = target_dir, version = "1.4")
-import_mimic(demo = TRUE, dir = target_dir)
+download_src("mimic_demo", target_dir)
+import_src("mimic_demo", target_dir, cleanup = TRUE)
