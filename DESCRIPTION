@@ -11,7 +11,7 @@ Description: MIMIC-III (Medical Information Mart for Intensive Care III) is a
     MIMIC-III, comprising 100 randomly selected patients from the subset of
     patients who eventually die, is distributed under the Open Database
     License (ODbL) v1.0 and is provided as R package for convenience.
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(
     person(given = "Nicolas",
            family = "Bennett",
