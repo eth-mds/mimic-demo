@@ -24,8 +24,8 @@ Authors@R: c(
     )
 URL: https://physionet.org/content/mimiciii-demo/1.4
 BugReports: https://github.com/eth-mds/mimic-demo/issues
-License: ODbL v1.0
+License: ODbL v1.0 + file LICENSE
 Encoding: UTF-8
 Enhances: ricu
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1

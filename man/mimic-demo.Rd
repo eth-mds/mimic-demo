@@ -3,7 +3,6 @@
 \docType{package}
 \name{mimic-demo}
 \alias{mimic-demo}
-\alias{mimic-demo-package}
 \title{MIMIC-III Critical Care Database}
 \description{
 MIMIC-III (\strong{M}edical \strong{I}nformation \strong{M}art for \strong{I}ntensive \strong{C}are
