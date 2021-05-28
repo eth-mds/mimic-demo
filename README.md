@@ -19,7 +19,8 @@ repository](https://github.com/eth-mds/physionet-demo).
 
 ## Installation
 
-The released version of mimic.demo can be installed as:
+The released version of
+[mimic.demo](https://github.com/eth-mds/mimic-demo) can be installed as:
 
 ``` r
 install.packages(
